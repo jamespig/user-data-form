@@ -41,7 +41,7 @@ const UserDataForm = () => {
   };
 
   return (
-    <Box w='50%' mx="auto" p={6}>
+    <Box w='60%' mx="auto" p={6}>
       <h2 className="font-bold text-lg text-[#555555]">User Data</h2>
       <hr className="border-y-2 border-yellow-400" />
       <form onSubmit={handleSubmit(onSubmit)}>
@@ -49,7 +49,7 @@ const UserDataForm = () => {
           <h2 className="pb-8 font-bold text-lg text-[#555555]">
             Profile Information
           </h2>
-          <div className="grid grid-rows-2 grid-cols-2 gap-[20px] ">
+          <div className="grid md:grid-rows-2 md:grid-cols-2 gap-[20px] sm:grid-cols-1 sm:grid-rows-4">
             <TextInput
               label="First Name"
               name="firstName"

@@ -7,7 +7,7 @@ export const ContactFields = ({
   validateEmailOrPhone
 }: ContactFieldsProps) => {
   return (
-    <div className="grid grid-cols-2 gap-[20px]">
+    <div className="grid md:grid-cols-2 md:grid-rows-1 gap-[20px] sm:grid-rows-2">
       <TextInput
         label="Email Address"
         name="email"
